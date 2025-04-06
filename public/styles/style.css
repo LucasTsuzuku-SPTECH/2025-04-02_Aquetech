@@ -111,9 +111,12 @@ body {
   margin: 0;
 }
 
+/* Login */
+
 .login {
   background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
-  height: 500px;
+  padding: 11%;
+  height: 100%;
   align-content: center;
 }
 
@@ -172,6 +175,7 @@ body {
   padding: 1.5%;
   border: #33b9cd 2px solid;
   border-radius: 10px;
+  text-align: center;
 }
 
 .botao {
@@ -185,4 +189,22 @@ body {
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
+}
+
+/* Cadastro */
+
+.card-cadastro {
+  background-color: #e5e5e5;
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card-cadastro h2 {
+  margin: 2%;
+  color: #f36898;
+  font-size: 35px;
 }
