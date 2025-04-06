@@ -22,12 +22,12 @@ body {
 }
 
 .header {
-  border-bottom: solid aqua 2px;
+  border-bottom: solid #33b9cd 2px;
   margin: 0;
 }
 
 .header .container .titulo {
-  color: aqua;
+  color: #33b9cd;
 }
 .header .navbar {
   color: yellow;
@@ -67,6 +67,8 @@ body {
 
 .social {
   background-color: white;
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 
 .boxes {
@@ -90,4 +92,21 @@ body {
 
 .box h4 {
   color: crimson;
+}
+
+.footer {
+  background-color: #33b9cd;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  color: #ffffff;
+}
+
+.footer h4 {
+  margin: 0;
 }
