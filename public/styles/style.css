@@ -110,3 +110,79 @@ body {
 .footer h4 {
   margin: 0;
 }
+
+.login {
+  background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+  height: 500px;
+  align-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-login {
+  background-color: #e5e5e5;
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card-login h2 {
+  margin: 2%;
+  color: #f36898;
+  font-size: 35px;
+}
+
+.formulario {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.campo {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campo span {
+  color: #f36898;
+  font-weight: 700;
+  display: flex;
+  align-self: flex-start;
+  font-size: 20px;
+}
+
+.campo input {
+  width: 97%;
+  margin: 0.5%;
+  padding: 1.5%;
+  border: #33b9cd 2px solid;
+  border-radius: 10px;
+}
+
+.botao {
+  margin-top: 2%;
+  margin-bottom: 4.5%;
+  width: 25%;
+  padding: 1.5%;
+  background-color: #ee135b;
+  border: #ee135b 2px solid;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
